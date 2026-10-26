@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+#search {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+#status {
+  color: #555;
+}
+#user-list {
+  list-style: none;
+  padding: 0;
+}
+#user-list li {
+  margin-bottom: 12px;
+  padding: 16px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #00000010;
+}
+#user-list h3 {
+  margin-top: 0;
+}
+#user-list p {
+  margin-bottom: 4px;
+  overflow-wrap: anywhere;
+}

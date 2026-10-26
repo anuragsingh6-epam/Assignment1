@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User List Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>User List</h1>
+      <input
+        type="text"
+        id="search"
+        placeholder="Search users by name..."
+        aria-label="Search users by name"
+      />
+      <p id="status" role="status">Loading users...</p>
+      <ul id="user-list"></ul>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
